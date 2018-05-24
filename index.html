@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>freeCodeCamp Portfolio Project (using Bootstrap)</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<!-- Navigation Bar -->
+
+<nav class="navbar navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mylinks" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+      <a href="#" class="navbar-brand">junior</a>
+    </div>
+     <div class="collapse navbar-collapse" id="mylinks">
+      <ul class="navbar-nav nav navbar-right">
+        <li><a href="#aboutme">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container maincontainer">
+<!-- About --> 
+
+<div class="jumbotron" id="aboutme">
+  <div class="media">
+    <div class="media-left media-middle">
+      <a href="#"><img class="media-object rounded" src="img/avatar.jpg" alt="photo"></a>
+    </div>
+      <div class="media-body">
+        <h2 class="media-heading">It's me</h2>
+        <p>My name's Anya and I am learning HTML, CSS, Bootstrap and JavaScript since March, 2018. I'd love to get a new profession of a web-developer. After that I'll be able to work anywhere I want!</p>
+        <p>I have a background in philology, and I previously worked as a journalist. I've also been long interested in digital design and photography.</p>
+        <p>Resources I am using to learn:</p>
+        <ul>
+          <li>freeCodeCamp</li>
+          <li>Udemy: The Web Developer Bootcamp</li>
+          <li>Sololearn iOS app</li>
+          <li>MDN</li>
+          <li>Wes Bos "JavaScript 30"</li>
+        </ul>
+        <p>I live in Yakutsk — it's in Siberia, its timezone is GMT+9. </p>
+        <hr>
+        <h4>Follow me on social media:</h4>
+        <span class="logos"><a href="https://www.instagram.com/borges_chow/"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://codepen.io/anyajunior/"><i class="fab fa-codepen fa-2x"></i></a></span>
+      </div>
+    </div>
+</div>
+
+<!-- Portfolio -->
+<div class="wrapper1">
+  <h2 id="portfolio">My Portfolio</h2>
+  <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="thumbnail"><a href="drumkit.html" alt="A JavaScript Drum Kit"><img src="img/drew-sal.jpg" alt="A JavaScript Drum Kit"></a></div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="thumbnail"><a href="https://source.unsplash.com/cPF2nlWcMY4"><img src="https://source.unsplash.com/cPF2nlWcMY4/350x233"></a></div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="thumbnail"><a href="https://source.unsplash.com/n6jNHTg2C2w"><img src="https://source.unsplash.com/n6jNHTg2C2w/350x233"></a></div>
+        </div> 
+        <div class="col-lg-4 col-sm-6">
+          <div class="thumbnail"><a href="https://source.unsplash.com/AuE-N8GXL20"><img src="https://source.unsplash.com/AuE-N8GXL20/350x233"></a></div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="thumbnail"><a href="https://source.unsplash.com/N-X3TCHj5Jk"><img src="https://source.unsplash.com/N-X3TCHj5Jk/350x233"></a></div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="thumbnail"><a href="https://source.unsplash.com/jIawzYmWUuI"><img src="https://source.unsplash.com/jIawzYmWUuI/350x233"></a></div>
+        </div> 
+      </div>
+</div>
+<!-- Contact -->
+<div class="wrapper1">
+  <h2 id="contact">Contact Me</h2>
+  <p>You can contact me anytime via this form! Simply leave your message here:</p>
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Your username on Gmail" aria-describedby="basic-addon2">
+    <span class="input-group-addon" id="basic-addon2">@gmail.com</span>
+  </div>
+  <div class="form-group">
+    <label for="comment">Comment:</label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
+  </div> 
+  <button type="button" class="btn btn-primary">Send</button>
+ </div> 
+<!-- END OF CONTAINER -->
+</div>
+<!-- SRIPTS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
