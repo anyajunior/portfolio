@@ -19,8 +19,6 @@
   window.addEventListener('keydown', removeAlert);
 
   const showalert = document.querySelector(".showalert");
-
-
   function showAlert(){
     showalert.textContent = "How to play? Press keys on a keyboard!";
     showalert.classList.add("alert");

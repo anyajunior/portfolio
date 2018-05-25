@@ -18,31 +18,11 @@ body,html {
   justify-content: center;
 }
 
-.home {
-  font-size: 3rem;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-align: left;
-}
-
 .alert {
   font-size: 3rem;
   color: white;
   background: rgba(0,0,0,0.4);
   text-align: center;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-a: hover {
-  color: #ffc600;
-}
-
-a: visited {
-  color: white;
 }
 
 .key {
