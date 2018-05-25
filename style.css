@@ -1,0 +1,48 @@
+body {
+  padding-top: 70px;
+  background-color: #E6F3F7;
+}
+.maincontainer {
+  background-color: white;
+}
+
+.jumbotron {
+  background-color: white;
+}
+
+h4 {
+  padding-left: 30%;
+}
+
+.logos {
+  padding-left: 40%;
+}
+
+.navbar {
+  background-color: #707D82;
+}
+
+.navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.rounded {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.media-middle {
+  vertical-align: top;
+}
+
+.media-body {
+  padding-left: 3%;
+}
+
+.wrapper1 {
+  padding: 2%;
+}
