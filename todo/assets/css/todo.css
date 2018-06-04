@@ -25,6 +25,53 @@ h1 {
 	width: 38rem;
 	background-color: #f7f7f7;
 	box-shadow: 15px 17px 28px -17px rgba(66,66,66,0.62);
+	position: relative;
+}
+
+#help {
+	position: absolute;
+	left: 37.1rem;
+	top: .95rem;
+	background-color: rgba(240,5,5,0.6);
+	width: 4.4rem;
+	height: 2.5rem;
+	color: white;
+	text-align: center;
+	line-height: 2.5rem;
+	transform: rotate(-90deg);
+	font-size: 1rem;
+	animation-name: appearance;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	z-index: 2;
+}
+
+@keyframes appearance {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+#help:hover {
+	background-color: rgba(240,5,5,1);
+}
+
+#helpexpand {
+	position: absolute;
+	left: 38rem;
+	top: 0rem;
+	width: 20rem;
+	height: 7rem;
+	background-color: rgba(240,5,5,1)
+}
+
+p {
+	padding-left: 3rem;
+	color: white;
+	font-size: 1rem;
 }
 
 .completed {

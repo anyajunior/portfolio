@@ -40,3 +40,9 @@ $("input[type='text']").keypress(function(event){
 $("#plus").click(function(){
 	$("input[type='text']").fadeToggle();
 })
+
+$("#helpexpand").hide();
+// select help, on hovering displaying another div (as if expanding the help div)
+$("#help").on("click", function(){
+	$("#helpexpand").fadeToggle();
+})
